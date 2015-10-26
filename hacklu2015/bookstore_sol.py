@@ -19,7 +19,7 @@ f = s.makefile('rw',bufsize=0)
 
 #1. overflow INTERNAL_SIZE_T size
 #2. create overlapping chunks
-#3. trigger formar string bug
+#3. trigger format string bug
 #4. rewrite fini function pointer -> like dtor
 raw_input("STAGE1")
 
